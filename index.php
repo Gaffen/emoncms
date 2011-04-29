@@ -9,6 +9,9 @@ if(!isset($_GET['id']))
 
 ?>
 <h1>Hello World</h1>
+
+<a href="contact.php">Contact</a>
+
   <div id="navbar">
     <?php @ require_once("menu.php"); ?>
   </div>
@@ -23,3 +26,4 @@ else
   include("$id.php");
   }
 ?>
+
